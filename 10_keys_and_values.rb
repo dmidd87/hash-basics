@@ -32,3 +32,11 @@ person = {
 #   {:latitude=>37.7833, :longitude=>122.4167}
 #
 #------- your code below here ---------
+
+person["address"].each do |address, values|
+  p address
+end
+
+person["address"].each do |address, values|
+  p values
+end

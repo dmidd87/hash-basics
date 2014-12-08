@@ -22,4 +22,4 @@ person = {
 
 #------- your code above here ---------
 
-p person["favorite_foods"]
+p person["favorite_foods"] << "ethiopian"

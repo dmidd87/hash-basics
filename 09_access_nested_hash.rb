@@ -24,3 +24,8 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+
+address = person["address"]
+coor = address["coordinates"]
+puts coor[:latitude].to_s
+puts coor[:longitude].to_s

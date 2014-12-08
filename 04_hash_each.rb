@@ -24,3 +24,7 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+
+person["address"].each do |location, value|
+  puts "#{location} is #{value}"
+end

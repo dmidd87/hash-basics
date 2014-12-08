@@ -22,4 +22,4 @@ person = {
 
 #------- your code above here ---------
 
-p person["nickname"]
+p person["nickname"] = "BB"

@@ -16,6 +16,4 @@ person = {
 #
 #------- your code below here ---------
 
-person[:favorite_foods].each do |foods|
-  puts foods
-end
+person[:favorite_foods].each {|food| p food}
